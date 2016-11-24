@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name            = 'libwebp'
-  s.version         = '0.5.1a'
+  s.version         = '0.5.1'
   s.summary         = 'Library to encode and decode images in WebP format.'
   s.homepage        = 'https://developers.google.com/speed/webp/'
   s.author          = 'Google Inc.'
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.requires_arc    = false
   
   s.source_files = 'src/**/*.{h,c}'
-  s.header_mappings_dir = 'src/**/*.h'
+  s.header_mappings_dir = 'src'
 end
