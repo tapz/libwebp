@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc    = false
   
   s.source_files = 'src/**/*.{h,c}'
-  s.header_mappings_dir = 'src'
+  s.public_header_files = 'src/webp/*.h'
+  s.header_mappings_dir = 'src/webp'
 end
